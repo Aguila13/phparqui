@@ -1,5 +1,5 @@
 <?php
-$serverName = "dbarqui.database.windows.net"; 
+$serverName = "serverarquisql.database.windows.net"; 
 $connectionOptions = array(
     "Database" => "dbarqui", 
     "Uid" => "serversqlarqui", 
