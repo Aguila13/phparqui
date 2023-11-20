@@ -1,9 +1,9 @@
 <?php
-$serverName = "<your_server_name>.database.windows.net"; // Reemplaza con tu nombre de servidor
+$serverName = "dbarqui.database.windows.net"; 
 $connectionOptions = array(
-    "Database" => "<your_database_name>", // Reemplaza con el nombre de tu base de datos
-    "Uid" => "<your_username>", // Reemplaza con tu nombre de usuario
-    "PWD" => "<your_password>" // Reemplaza con tu contraseña
+    "Database" => "dbarqui", 
+    "Uid" => "serversqlarqui", 
+    "PWD" => "Serversql1" 
 );
 
 // Intenta conectar
