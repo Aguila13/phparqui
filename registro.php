@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $contrasena = $_POST["contrasena"];
 
     // Prepara la consulta SQL
-    $sql = "INSERT INTO usuarios (nombre, correo, contrasena) VALUES (?, ?, ?)";
+    $sql = "INSERT INTO Usuarios (nombre, correo, contrasena) VALUES (?, ?, ?)";
     $params = array($nombre, $correo, $contrasena);
     
     // Ejecuta la consulta
