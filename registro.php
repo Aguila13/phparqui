@@ -2,7 +2,7 @@
 $serverName = "serverarquisql.database.windows.net"; 
 $connectionOptions = array(
     "Database" => "dbarqui", 
-    "Uid" => "serversqlarqui", 
+    "Uid" => "serverarquisql", 
     "PWD" => "Serversql1" 
 );
 
